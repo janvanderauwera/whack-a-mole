@@ -8,6 +8,7 @@ function wackamole(){
   let chosenHole;
   let timer = 60;
   const replayBtn = document.querySelector(".endBtn");
+  let scream = document.querySelector(".scream");
   
   
   replayBtn.addEventListener("click", ()=>{
@@ -42,6 +43,7 @@ function wackamole(){
   
   let hole = event.currentTarget;
    if (chosenHole.id == hole.id){
+    scream.play();
       chosenHole.classList.remove("mole");
       chosenHole.classList.add("hamer");
       result +=1;
