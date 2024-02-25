@@ -1,0 +1,86 @@
+.grid {
+	position: relative;
+	width: 850px;
+	height: 530px;
+	background: url('images/background.png') center/cover;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.square {
+
+	width: 170px;
+	height: 132px;	
+	margin:0px;
+}
+
+h2 {
+	margin-left: 5px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	font-size: 15px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	display: inline-block;
+}
+
+.mole{
+	background-image: url(images/roelMol.png);
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y:center;
+	z-index: 100;
+
+}
+
+.hamer{
+	background-image: url(images/kleineHamer.png);
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y:bottom;
+	z-index: 100;
+}
+
+.hidden{
+	display: none;
+	
+}
+
+.gameOvr{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.endBtn{
+	margin-left:45px;
+	margin-top: 10px;
+	align-self: center;
+	background-color: transparent;
+	background-image: none;
+	background-position: 0 90%;
+	background-repeat: repeat no-repeat;
+	background-size: 4px 3px;
+	border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+	border-style: solid;
+	border-width: 2px;
+	box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+	box-sizing: border-box;
+	color: #41403e;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Neucha, sans-serif;
+	font-size: 1rem;
+	line-height: 23px;
+	outline: none;
+	padding: 0.75rem;
+	text-decoration: none;
+	transition: all 235ms ease-in-out;
+	border-bottom-left-radius: 15px 255px;
+	border-bottom-right-radius: 225px 15px;
+	border-top-left-radius: 255px 15px;
+	border-top-right-radius: 15px 225px;
+
+}
+
+
+
