@@ -43,6 +43,8 @@ function wackamole(){
   
   let hole = event.currentTarget;
    if (chosenHole.id == hole.id){
+    scream.pause();
+    scream.currentTime =0;
     scream.play();
       chosenHole.classList.remove("mole");
       chosenHole.classList.add("hamer");
