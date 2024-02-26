@@ -1,75 +1,83 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Whack a mole</title>
+    <title>Whack A Mole</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="author" content="Jan Van der Auwera">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Whack A Mole">
     <link rel="stylesheet" href="styles.css">
+   
+    
 </head>
+
 <body>
 
-
-  <div class="grid">
-    <div class="square">
-     <div class="scoreBoard">
-      <h2>Your Score:</h2>
-      <h2 class="score">0</h2>
-     </div>
-    <div class="timeBoard">  
-      <h2>Time left:</h2>
-      <h2 class="time-left">60</h2>
+    <div class="image-container">
+        <img src="images/background (Small).png" alt="Background Image">
+        <div class="grid">
+            <div class="square">
+             <div class="scoreBoard">
+              <h2>Your Score:</h2>
+              <h2 class="score">0</h2>
+             </div>
+            <div class="timeBoard">  
+              <h2>Time left:</h2>
+              <h2 class="time-left">60</h2>
+            </div>
+            <audio class="scream"  src="sound/scream.mp3"></audio>
+            </div>
+            <div class="square">
+            </div>
+            <div class="square">
+            </div>
+            <div class="square">
+            </div>
+            <div class="square">
+            </div>
+            <div class="square">
+            </div>
+            <div class="square">
+            </div>
+            <div class="square">
+             <div class="endGame hidden">
+              <div class="gameOvr">Game Over</div>
+              <div><button class="endBtn">replay</button></div>
+        
+             </div>
+        
+             
+            </div>
+            <div class="square">
+            </div>
+            <div class="square">
+            </div>
+            <div class="square hole" id="1">
+            </div>
+            <div class="square hole" id="2">
+            </div>
+            <div class="square hole" id="3">
+            </div>
+            <div class="square hole" id="4">
+            </div>
+            <div class="square hole" id="5">
+            </div>
+            <div class="square hole" id="6">
+            </div>
+            <div class="square hole" id="7">
+            </div>
+            <div class="square hole" id="8">
+            </div>
+            <div class="square hole" id="9">
+            </div>
+            <div class="square hole" id="10">
+            </div>
+        
+        
+        
+        
+        </div>
     </div>
-    <audio class="scream"  src="sound/scream.mp3"></audio>
-    </div>
-    <div class="square">
-    </div>
-    <div class="square">
-    </div>
-    <div class="square">
-    </div>
-    <div class="square">
-    </div>
-    <div class="square">
-    </div>
-    <div class="square">
-    </div>
-    <div class="square">
-     <div class="endGame hidden">
-      <div class="gameOvr">Game Over</div>
-      <div><button class="endBtn">replay</button></div>
-
-     </div>
-
-     
-    </div>
-    <div class="square">
-    </div>
-    <div class="square">
-    </div>
-    <div class="square hole" id="1">
-    </div>
-    <div class="square hole" id="2">
-    </div>
-    <div class="square hole" id="3">
-    </div>
-    <div class="square hole" id="4">
-    </div>
-    <div class="square hole" id="5">
-    </div>
-    <div class="square hole" id="6">
-    </div>
-    <div class="square hole" id="7">
-    </div>
-    <div class="square hole" id="8">
-    </div>
-    <div class="square hole" id="9">
-    </div>
-    <div class="square hole" id="10">
-    </div>
-
-
-
-
-</div>
 
 <script src="myScript.js"></script>
 </body>

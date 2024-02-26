@@ -1,33 +1,62 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.image-container {
+    position: relative;
+	min-width: 240px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .grid {
-	position: relative;
-	width: 850px;
-	height: 530px;
-	background: url('images/background.png') center/cover;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+	grid-auto-rows: 1fr;
+    grid-gap: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
-.square {
 
-	width: 170px;
-	height: 132px;	
-	margin:0px;
-}
 
 h2 {
-	margin-left: 5px;
-	margin-top: 10px;
-	margin-bottom: 0px;
-	font-size: 15px;
+	margin-left: 4px;
+	margin-top: 4px;
+    margin-bottom: 0;
+	
+	font-size: calc(1vw + 1vh);
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	display: inline-block;
 }
 
+.square{
+
+	width: 100%;
+	height: 100%;
+
+}
+
+.scream{
+    margin:0;
+}
+
 .mole{
 	background-image: url(images/roelMol.png);
+    background-size: 30%;
 	background-repeat: no-repeat;
 	background-position-x: center;
-	background-position-y:center;
+	background-position-y: 20%;
+	
 	z-index: 100;
 
 }
@@ -37,6 +66,7 @@ h2 {
 	background-repeat: no-repeat;
 	background-position-x: center;
 	background-position-y:bottom;
+    background-size: 80%;
 	z-index: 100;
 }
 
