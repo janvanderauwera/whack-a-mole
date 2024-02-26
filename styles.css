@@ -8,6 +8,7 @@ body, html {
 .image-container {
     position: relative;
 	min-width: 240px;
+	max-width: 90vw;
 }
 
 .image-container img {
